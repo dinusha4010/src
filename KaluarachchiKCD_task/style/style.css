@@ -1,0 +1,215 @@
+body ,.navbar-light{
+
+    background: rgb(28, 27, 27);
+}
+
+.nav-link  {
+
+
+border-left: 21px;
+font-family: 'Allan', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color:#1C1B1B !important;
+
+}
+
+
+
+h1{
+color: #CCE91E;
+text-align: center;
+
+/* header home */
+font-family: 'Allura', cursive;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.cards{
+    width: 900px;
+    margin: 8px auto;
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px 170px;
+    gap:8px
+}
+
+p{
+    
+
+
+
+ color:  #FFF;
+ 
+
+/* paragraph font */
+font-family: 'Allerta', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+h2{
+text-align: center;
+color: #1C1B1B;
+font-family: Allura;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #CCE91E;
+}
+
+.cards2{
+    width: 900px;
+    margin: 8px auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:8px;
+    
+}
+
+.cards2> div {
+    
+    background: rgba(28, 27, 27, 0.90); 
+    padding: 20px 0;
+    border: 1px solid white;
+    
+  }
+
+h3{
+    
+
+
+
+    color:  #CCE91E;
+   
+   /* paragraph font */
+   font-family: 'Allerta', sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   }
+   .btn{
+
+    background-color: #CCE91E;
+    color: #1C1B1B;
+   }
+
+   .lead{
+
+    justify-content: center;
+    margin-left: 190px;
+   }
+
+   .cards3{
+    width: 900px;
+    margin: 8px auto;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap:8px;
+    
+}
+
+.cards3> div {
+    
+    background: rgba(28, 27, 27, 0.90); 
+    padding: 20px 0;
+    border: 1px solid white;
+    
+  }
+
+  .cards4{
+    width: 450px;
+    margin: 8px auto;
+    display: grid;
+    grid-template-columns: 450px 450px 450px 450px;
+    gap:8px;
+    
+}
+
+.cards4> div {
+    
+    background: rgba(28, 27, 27, 0.90); 
+    padding: 20px 0;
+    border: 1px solid white;
+    
+  }
+
+  footer p  {
+
+
+    border-left: 21px;
+    font-family: 'Allan', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color:#FFF !important;
+  }
+
+  footer a{
+
+    text-decoration: none;
+    text-align: center;
+    border-left: 21px;
+    font-family: 'Allan', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color:#FFF !important;
+  }
+
+  th{
+
+    color: #CCE91E !important;
+  }
+  .scw{
+
+    width: 924px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .scw{
+
+      width: 350px;
+    }
+
+    .cards2{
+      width: 350px;
+      margin: 8px auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap:8px;
+      
+  }
+  .cards3{
+    width: 350px;
+    margin: 8px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:8px;
+  
+  }
+  h1{
+    font-size: 36px;
+  }
+
+  
+.imageh{
+  
+  width: 10;
+}
+}
+
+.imageh{
+  height: 400;
+  width: 170;
+}
